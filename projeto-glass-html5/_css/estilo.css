@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+body {background-color: rgba(216, 216, 216, 0.836);
+      color: rgba(0, 0, 0,1);}
+        
+p   {text-align:justify;
+     text-indent:50px;
+     font-family: 'Open Sans', sans-serif;
+    }
+
+/* Formatação de imagens com legendas  */
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid rgba(198, 209, 223, 0.788);
+    box-shadow: 1px 1px 4px black ;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+/*Fonte importada google fontes*/
+
+    
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+/*MENU*/
+
+#menu-h {
+    display: block; /*MENU FLUTUANTE*/
+}
+#menu-h ul li {
+    display: inline;  /*FICAR TUDO EM UMA LINHA SÓ*/
+    color: #e90707; /*TESTE*/
+}
+#menu-h h1 {
+    display: none;
+    display: inline;
+}
+#menu-h ul {
+    position: absolute;
+    top: 0px;
+    left: 1200px;
+
+    list-style: none;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(75, 74, 74);
+}
+#menu-h ul li a /*MARCADORES*/ {
+    color: #ffffff;
+    margin: 0px; /*ESPAÇO ENTRE OS BOTOES*/
+    padding: 10px; /*ESPAÇAMENTO*/
+    display: inline-block; /*OCUPAR TODA A AREA E FICAR CLICAVEL*/
+    text-decoration: none; /*TIRAR O SUBLINHADO*/
+    transition: background .4s; /*EFEITO DE TRANSIÇAO PASSANDO O MOUSE*/
+}
+
+#menu-h ul li:last-child a /*ULTIMO MENU NO FINAL*/ {
+    float: right;
+}
+#menu-h ul li a:hover /*QUANDO PASSAR O MOUSE*/ {
+    background-color:rgb(140, 179, 184);
+}
