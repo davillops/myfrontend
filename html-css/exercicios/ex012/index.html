@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--Ícone do site-->
+    <title>Videos em HTML5</title>
+    <!--VÍDEOS HOSPEDADOS NO PROPRIO SITE CONSOMEM MUITO TRAFEGO DE BANDA-->
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+        <p>Video hospedado no proprio servidor</p>
+    <video src="midia/V-Cerveja.webm" width="300" height="158" controls loop ></video>
+    <!--Tag VIDEO SRC="" Não é tão eficas quando a de baixo, pois é apenas um unico formato-->
+
+    <video width="300" height="158" controls>
+    <!--Parametro WIDTH="" usado para definir o tamanho que o vídeo era aparecer-->
+    <!--Parametro POSTER="" usado para colocar a tumb do vídeo -->
+        <source src="midia/V-Cerveja.m4v" type="video/mp4">
+        <source src="midia/V-Cerveja.webm" type="video/mp4">
+        <source src="midia/v-cerveja.mp4" type="video/mp4">
+    <!--Caso o video não reproduza ira marcar-->
+        <p>Seu navegador não tem compatibilidade com o video, você pode baixar <a href="midia/v-cerveja.mp4">aqui</a></p> 
+        <!--Criei uma ancora para pode fazer o download-->
+    </video>
+
+    <h1>Inserindo videos do Youtube</h1>
+        <!--Ir no video, clicar em COMPARTILHAR, INCORPORAR, e so colar o código-->
+        <iframe width="500" height="264" controls height="300" src="https://www.youtube.com/embed/jfKfPfyJRdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--Utilizar o youtube era uitlizar os dados dele, e não do proprio servidor-->
+
+    <h1>Inserindo video do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/304478566?h=64fa8b4632" width="500" height="264" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
