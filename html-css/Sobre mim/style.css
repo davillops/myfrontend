@@ -1,0 +1,27 @@
+body {
+    background-color: #4742ED;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h1{
+    color: #45CDF7;
+}
+h2{
+    color: #45CDF7;
+}
+ul{
+    background-color: #458cf76b;
+    color: #45CDF7;
+}
+p{
+    color: #45CDF7;
+}
+a{
+    color: #42EDE8;
+}
+strong{
+    color: #42EDE8;
+}
+img{
+    color: #4995E0;
+}
