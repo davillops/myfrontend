@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+    font-family: helvetica, verdana, sans-serif;
+    /*Combinações seguras de fonte*/
+    /*ultima opção sempre colocar uma fonte generica (serifada, monoespaçada ou sem serifa*/
+}
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
