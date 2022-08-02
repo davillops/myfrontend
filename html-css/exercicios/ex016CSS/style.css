@@ -21,7 +21,7 @@ p{
 }
 main{
     background-color: white;
-    width: 600px; /*tamanho da caixa branca*/
+    width: 600px; /*largura*/
     padding: 15px; /*borda*/
     text-align: center;
     margin: auto; /*ajuste automatico*/
