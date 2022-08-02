@@ -2,6 +2,7 @@
 
 body {
     font-family: helvetica, verdana, sans-serif;
+    text-align: justify;
     /*Combinações seguras de fonte*/
     /*ultima opção sempre colocar uma fonte generica (serifada, monoespaçada ou sem serifa*/
 }
