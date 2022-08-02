@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+main{
+    background-color: white;
+    width: 450px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.288) ;
+
+}
+body {
+    background-color: #B31B10;
+    background-image: url(akastkifund.jpg);
+
+}
+h1{
+    color: #E62314;
+    text-shadow: 2px 2px 2px #81130b71;
+}
+h2{
+    color: #E62314;
+    text-shadow: 2px 2px 2px #81130b71;
+}
+ul{
+    margin: auto;
+    width: 450px;
+    background-color: white;
+    color: #E62314;
+    border-radius: 15px;
+    height: 160px;
+    box-shadow: 3px 3px 30px #6b100910;
+}
+p{
+    color: #E62314;
+}
+a{
+    color: #E62314;
+}
+strong{
+    color: #E62314;
+}
+img{
+    color: #E62314;
+}
