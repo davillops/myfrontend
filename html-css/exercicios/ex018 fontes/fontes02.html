@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br
+">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        /*Adicionando fontes externas com font-face*/
+        @font-face {
+            font-family: girl;
+            src: url(Fontes/Filxgirl.TTF);
+            
+        }
+        @font-face {
+            font-family: love;
+            src: url(Fontes/love\ story\ ttf.ttf);
+        }
+        body{
+            font-family: 'love', Helvetica, sans-serif;
+            /*'love' -> nome da fonte escolhida*/
+        }
+        h1{
+            font-family: 'girl', Helvetica, serif;
+            font-size: 3em;
+            /*3em -> 3x o tamanho normal da fonte (16px)*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore praesentium iure odit! Repudiandae at natus optio. Saepe ratione quos officia eveniet laudantium cupiditate, sunt neque culpa eaque eligendi odio!</p>
+</body>
+</html>
