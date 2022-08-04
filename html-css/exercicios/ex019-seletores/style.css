@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* 
+Tudo que for "id" em CSS vira "#"
+Tudo que for "class" em CSS vira "."
+*/
+
+*{
+
+}
+body{
+    background-color: rgba(0, 255, 255, 0.26);
+    font: normal 1em Arial, Helvetica, sans-serif;   
+}
+h1{
+    color: rgb(0, 168, 168);
+}
+/*H1 PERSONALIZADO*/
+#Principal{
+    color: rgb(11, 199, 199);
+    font-size: 2.5em;
+    text-shadow: 2px 2px 2px rgba(32, 136, 136, 0.507);
+    font-weight: lighter; /*peso*/
+    text-decoration: underline; /*sublinhado no titulo*/
+    text-align: center;
+}
+h2{
+    color: rgba(71, 172, 172, 0.822);
+}
