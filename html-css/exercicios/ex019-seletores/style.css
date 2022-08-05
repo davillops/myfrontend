@@ -5,9 +5,6 @@ Tudo que for "id" em CSS vira "#"
 Tudo que for "class" em CSS vira "."
 */
 
-*{
-
-}
 body{
     background-color: #55edb04b;
     font: normal 1em Arial, Helvetica, sans-serif;   
