@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links</title>
     <style>
+/*
+        # - id
+        . - class
+        : - pseudo-class
+        :: - pseudo-element
+        > - children
+*/
+
         a{
             color: red;
             text-decoration: none;
@@ -21,6 +29,16 @@
         a:active{ /*Ação ao clicar*/
             color: yellow;
         }
+        .especial::before{
+            content: '→ ';
+            color: darkgray;
+        }
+        .especial::after{
+            content: ' ←';
+            color: darkgray;
+            font-weight: normal;
+            text-decoration: none;
+        }
 
 
     </style>
@@ -29,7 +47,7 @@
     <h1>Personalizando links</h1>
         <ul>
             <li><a href="https://github.com/davillops" target="_blank">Repositorio GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/davi-lopes-72650b1b6/" target="_blank">Perfil do LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/davi-lopes-72650b1b6/" class="especial" target="_blank">Perfil do LinkedIn</a></li>
         </ul>
 </body>
 </html>
