@@ -10,7 +10,8 @@ main{
     text-align: center;
     padding: 10px;
     border-radius: 15px;
-    margin: auto;
+    border: 5px;
+    margin: 10px auto 10px auto;
     box-shadow: 3px 3px 30px #2d2a9496 ;
 
 }
@@ -21,12 +22,18 @@ body {
 h1{
     color: #45CDF7;
     text-shadow: 2px 2px 2px #26728abb;
+    margin:  1px auto 2px auto;
 }
 h2{
     color: #45CDF7;
     text-shadow: 2px 2px 2px #26728abb;
 }
+#TituloDosLinks{
+    margin: 5px auto 5px auto;
+    padding-top: 4px;
+}
 ul{
+    padding: 0px;
     margin: auto;
     width: 450px;
     background-color: #458cf744;
@@ -35,8 +42,12 @@ ul{
     height: 160px;
     box-shadow: 3px 3px 30px #2d2a9496;
 }
+li{
+    margin: 5px;
+}
 p{
     color: #45CDF7;
+    margin: 2px auto 2px auto;
 }
 a{
     color: #42EDE8;
