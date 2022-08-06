@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        body{
+            border-color: black;
+            border-style: solid;
+        }
+        h1{ /*box-level*/
+            background-color: lightgray;
+            height: 150px;
+            width: 125px;
+            border: 10px solid lightslategrey;
+            padding: 10px 10px 15px 15px; /*top, right, bottom, left - sentido horario*/
+            margin: 10px auto 2px auto;
+            outline: 2px dashed salmon;
+        }
+        a{ /*inline-level*/
+            border: 3px dashed blue;
+            margin: 0px -2px 0px -2px;
+        }
+    </style>
+</head>
+<body>
+    <!--Usando DevTools-->
+    <h1>Exemplo de box-level</h1>
+        <p>Parágrafos são exemplos de box-levels , os <a href="#">links</a> são boxs
+</body>
+</html>
