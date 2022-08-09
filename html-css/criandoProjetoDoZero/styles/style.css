@@ -19,6 +19,12 @@
     --fonte-android: 'android', cursive
 
 }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+}
 body{
     background-color: #C5E6CE;
     font-family: var(--fonte-padrao);
@@ -38,8 +44,8 @@ header p{
 nav{
     background-color: var(--cor4);
 }
-nav a{
-    color: white;
+a{
+    color: var(--cor3);
     text-decoration: none;
 }
 a:hover{
@@ -47,12 +53,27 @@ a:hover{
 }
 
 /*---MAIN---*/
+main{
+    background-color: white;
+    max-width: 830px;
+    min-width: 320px;
+    margin: auto;
+}
 main h1{
     font-family: var(--fonte-android);
 }
 main h2{
     font-family: var(--fonte-android);
 }
+.imagem{
+    width: 100%;
+    text-align: center;
+}
+
 strong{
     background-color: var(--cor1);
+}
+footer{
+    background-color: var(--cor4);
+    color: white;
 }
