@@ -1,7 +1,58 @@
-@charset "UTF-8";
+@charset "UTF-8";    
 
-body{
-    background-color: #C5E6CE;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Princess+Sofia&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url(../fontes/idroid.otf);
 }
 
-#7EE09A #366142 #C5E6CE #536157 #61AD77
+:root{ /*Variaveis com cores*/
+    --cor0: #C5E6CE;
+    --cor1: #7EE09A;
+    --cor2: #61AD77;
+    --cor3: #2b8845;
+    --cor4: #315e3e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'android', cursive
+
+}
+body{
+    background-color: #C5E6CE;
+    font-family: var(--fonte-padrao);
+}
+/*---HEADER---*/
+header{
+    font-family: var(--fonte-destaque);
+    background-color: var(--cor3);
+}
+header h1{
+    color: white;
+}
+header p{
+    color: white;
+}
+
+nav{
+    background-color: var(--cor4);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: var(--cor2);
+}
+
+/*---MAIN---*/
+main h1{
+    font-family: var(--fonte-android);
+}
+main h2{
+    font-family: var(--fonte-android);
+}
+strong{
+    background-color: var(--cor1);
+}
