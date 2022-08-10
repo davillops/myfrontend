@@ -32,7 +32,7 @@ body{
 /*---HEADER---*/
 header{
     font-family: var(--fonte-destaque);
-    background-color: var(--cor3);
+    background-image:linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4));
     padding: 8px;
 }
 header h1{
@@ -57,14 +57,11 @@ nav{
 nav a{
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.301);
     color: var(--cor1);
-}
-
-a{
-    color: var(--cor2);
-    text-decoration: none;
+    transition-duration: .3s;
     padding: 6px 15px 6px 15px;
+    text-decoration: none;
 }
-a:hover{
+ nav a:hover{
     background-color: var(--cor1);
     border-radius: 15px;
     color: white;
@@ -82,16 +79,29 @@ main{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+main p{
+    margin: 15px 0px;
+    text-indent: 30px;
+    line-height: 1.3em;
+}
 main h1{
     font-family: var(--fonte-android);
-    padding: 2px;
+    padding-left: 5px;
+    background-image:linear-gradient(to right, var(--cor1), transparent);
+    border-radius: 7px 0px 0px 7px;
+    margin: 6px 0px 3px 0px;
 }
 main h2{
+    background-image:linear-gradient(to right, var(--cor1), transparent);
+    margin-bottom: 5px;
+    border-radius: 7px 0px 0px 7px;
     font-family: var(--fonte-android);
-    padding: 2px;
+    padding-left: 3px;
 }
-main p{
-    padding-bottom: 5px;
+main h3{
+    background-image:linear-gradient(to right, var(--cor1), transparent);
+    border-radius: 7px 0px 0px 7px;
+    padding-left: 3px;
 }
 #pirina{
     padding-top: 5px;
@@ -99,14 +109,28 @@ main p{
 main img{
     width: 100%;
 }
+main a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1px 5px;
+    border-radius: 9px 0px 0px 11px;
+    background-image:linear-gradient(to right, var(--cor1), transparent);
+}
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor3);
+    transition-duration: .2s;
+}
 .imgpeq{
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
 
 strong{
-    background-color: var(--cor1);
+    padding-left: 3px;
+
 }
 footer{
     background-color: var(--cor4);
