@@ -33,19 +33,28 @@ body{
 header{
     font-family: var(--fonte-destaque);
     background-color: var(--cor3);
+    padding: 8px;
 }
 header h1{
     color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.301);
 }
 header p{
     color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.301);
 }
 
 nav{
     background-color: var(--cor4);
+    padding: 5px;
 }
+nav a{
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.301);
+    color: var(--cor1);
+}
+
 a{
-    color: var(--cor3);
+    color: var(--cor2);
     text-decoration: none;
 }
 a:hover{
@@ -56,18 +65,35 @@ a:hover{
 main{
     background-color: white;
     max-width: 830px;
-    min-width: 320px;
+    min-width: 300px;
     margin: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 main h1{
     font-family: var(--fonte-android);
+    padding: 2px;
 }
 main h2{
     font-family: var(--fonte-android);
+    padding: 2px;
 }
-.imagem{
+main p{
+    padding-bottom: 5px;
+}
+#pirina{
+    padding-top: 5px;
+}
+main img{
     width: 100%;
-    text-align: center;
+}
+.imgpeq{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 strong{
@@ -76,4 +102,6 @@ strong{
 footer{
     background-color: var(--cor4);
     color: white;
+    margin-top: 10px;
+    padding-left: 15px;
 }
